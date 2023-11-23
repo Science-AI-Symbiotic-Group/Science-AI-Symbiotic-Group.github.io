@@ -1,0 +1,71 @@
+.content {
+    background-image: url(/assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h2,h1,h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    
+     font-family: serif;
+     font-weight: bold;
+}
+
+p,li{
+    color: azure;
+    font-size: 15px;
+    text-align: center;
+     font-family: serif;
+}
+
+ul{
+  text-align: center;  
+}
+
+a:hover{
+    color: #9580ff;
+}
+
+a{
+ -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.5s; 
+    -webkit-transition-timing-function: ease; 
+}
+
+
+img[src*='#moon']{
+  height: 200px;
+  
+  border-radius: 10%;
+  -webkit-transition-property: all; 
+  -webkit-transition-duration: 0.3s; 
+  -webkit-transition-timing-function: ease; 
+}
+
+img[src*='#moon']:hover{
+    transform: scale(2.0); 
+}
+
+
+
+
+
+
+
+img[src*='#team']{
+  height: 200px;
+ 
+  float: left;
+  border-radius: 10%;
+  -webkit-transition-property: all; 
+  -webkit-transition-duration: 0.3s; 
+  -webkit-transition-timing-function: ease; 
+}
+
+img[src*='#team']:hover{
+    transform: scale(2.0); 
+}
+
+
