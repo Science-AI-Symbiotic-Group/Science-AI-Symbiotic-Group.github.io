@@ -1,8 +1,4 @@
-.content {
-    background-image: url(/assets/images/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
 
 h2,h1,h3 {
     color: white;
@@ -15,9 +11,9 @@ h2,h1,h3 {
 
 p,li{
     color: azure;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-     font-family: serif;
+     font-family: robodo;
 }
 
 ul{
@@ -36,7 +32,7 @@ a{
 
 
 img[src*='#moon']{
-  height: 200px;
+  height: 300px;
   
   border-radius: 10%;
   -webkit-transition-property: all; 
@@ -45,7 +41,7 @@ img[src*='#moon']{
 }
 
 img[src*='#moon']:hover{
-    transform: scale(2.0); 
+    transform: scale(1.0); 
 }
 
 
@@ -55,9 +51,9 @@ img[src*='#moon']:hover{
 
 
 img[src*='#team']{
-  height: 200px;
+  height: 250px;
  
-  float: left;
+  float: center;
   border-radius: 10%;
   -webkit-transition-property: all; 
   -webkit-transition-duration: 0.3s; 
@@ -65,7 +61,7 @@ img[src*='#team']{
 }
 
 img[src*='#team']:hover{
-    transform: scale(2.0); 
+    transform: scale(1.0); 
 }
 
 
